@@ -1,0 +1,31 @@
+﻿@model SportsLeagueOrganizer.Models.Division
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<html>
+<body>
+<h2>Divisions</h2>
+	@foreach(var division in @ViewBag.AllDivisions)
+	{
+
+		<br>
+
+		<div class="card">
+          <div class="card-block">
+            <h4 class="card-title">@Html.ActionLink((string)division.DivisionName, "Details", new {DivisionId = division.DivisionId})</h4>
+            <h6 class="card-subtitle mb-2 text-muted">@division.SkillLevel Skill Level</h6>
+
+            <a class="card-link">@Html.ActionLink("Edit", "Update", new {DivisionId = division.DivisionId})</a>
+            <a class="card-link">@Html.ActionLink("Delete", "Delete", new {DivisionId = @division.DivisionId})</a>
+          </div>
+        </div>
+		
+	}
+
+		<br>
+
+    @Html.ActionLink("Create new Division", "Create")
+</body>
+</html>

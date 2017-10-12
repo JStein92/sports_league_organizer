@@ -1,0 +1,15 @@
+﻿@model SportsLeagueOrganizer.Models.Division
+
+<h2>Details for @Model.DivisionName</h2>
+
+@foreach(var team in @Model.Teams)
+{
+    <li>@team.TeamName | @Html.ActionLink("Details","Details","Team", new {TeamId = team.TeamId}) 
+	|  @Html.ActionLink("Edit","Update","Team", new {TeamId = team.TeamId}) 
+	|  @Html.ActionLink("Delete","Delete","Team", new {TeamId = team.TeamId}) 
+    </li>
+}
+
+@Html.ActionLink("Add New Team", "Create", "Team", new {DivisionId = @Model.DivisionId})
+
+@Html.ActionLink("Back", "Index")

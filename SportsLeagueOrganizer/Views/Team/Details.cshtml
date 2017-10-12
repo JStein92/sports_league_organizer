@@ -1,0 +1,9 @@
+﻿@model SportsLeagueOrganizer.Models.Team
+
+<h1>Details for @Model.TeamName</h1>
+
+<h2>@Model.Captain</h2>
+<h3>@Model.Players</h3>
+<h3>@ViewBag.Division.DivisionName</h3>
+
+@Html.ActionLink("Back", "Details", "Division", new {DivisionId = @Model.DivisionId})

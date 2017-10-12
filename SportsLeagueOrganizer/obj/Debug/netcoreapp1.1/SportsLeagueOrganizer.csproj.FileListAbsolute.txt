@@ -1,0 +1,10 @@
+/Users/Guest/Projects/SportsLeagueOrganizer/SportsLeagueOrganizer/bin/Debug/netcoreapp1.1/SportsLeagueOrganizer.deps.json
+/Users/Guest/Projects/SportsLeagueOrganizer/SportsLeagueOrganizer/bin/Debug/netcoreapp1.1/SportsLeagueOrganizer.runtimeconfig.json
+/Users/Guest/Projects/SportsLeagueOrganizer/SportsLeagueOrganizer/bin/Debug/netcoreapp1.1/SportsLeagueOrganizer.runtimeconfig.dev.json
+/Users/Guest/Projects/SportsLeagueOrganizer/SportsLeagueOrganizer/obj/Debug/netcoreapp1.1/SportsLeagueOrganizer.csprojResolveAssemblyReference.cache
+/Users/Guest/Projects/SportsLeagueOrganizer/SportsLeagueOrganizer/obj/Debug/netcoreapp1.1/SportsLeagueOrganizer.AssemblyInfo.cs
+/Users/Guest/Projects/SportsLeagueOrganizer/SportsLeagueOrganizer/bin/Debug/netcoreapp1.1/SportsLeagueOrganizer.dll
+/Users/Guest/Projects/SportsLeagueOrganizer/SportsLeagueOrganizer/bin/Debug/netcoreapp1.1/SportsLeagueOrganizer.pdb
+/Users/Guest/Projects/SportsLeagueOrganizer/SportsLeagueOrganizer/obj/Debug/netcoreapp1.1/SportsLeagueOrganizer.dll
+/Users/Guest/Projects/SportsLeagueOrganizer/SportsLeagueOrganizer/obj/Debug/netcoreapp1.1/SportsLeagueOrganizer.pdb
+/Users/Guest/Projects/SportsLeagueOrganizer/SportsLeagueOrganizer/obj/Debug/netcoreapp1.1/SportsLeagueOrganizer.csproj.CoreCompileInputs.cache

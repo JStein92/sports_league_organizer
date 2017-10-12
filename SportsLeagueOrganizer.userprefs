@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{F8135255-62E6-4F29-9137-6FC5DF1340E6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SportsLeagueOrganizer/Views/Division/Details.cshtml">
+    <Files>
+      <File FileName="SportsLeagueOrganizer/Models/Team.cs" Line="15" Column="55" />
+      <File FileName="SportsLeagueOrganizer/Views/Team/Create.cshtml" Line="6" Column="2" />
+      <File FileName="SportsLeagueOrganizer/Models/Division.cs" Line="11" Column="29" />
+      <File FileName="SportsLeagueOrganizer/Views/Team/Details.cshtml" Line="9" Column="69" />
+      <File FileName="SportsLeagueOrganizer/Views/Division/Delete.cshtml" Line="9" Column="1" />
+      <File FileName="SportsLeagueOrganizer/Views/Division/Details.cshtml" Line="9" Column="74" />
+      <File FileName="SportsLeagueOrganizer/Controllers/DivisionController.cs" Line="55" Column="1" />
+      <File FileName="SportsLeagueOrganizer/Controllers/TeamController.cs" Line="45" Column="21" />
+      <File FileName="SportsLeagueOrganizer/Views/Division/Update.cshtml" Line="19" Column="34" />
+      <File FileName="SportsLeagueOrganizer/Views/Team/Update.cshtml" Line="7" Column="46" />
+      <File FileName="SportsLeagueOrganizer/Views/Team/Delete.cshtml" Line="10" Column="71" />
+      <File FileName="SportsLeagueOrganizer/Views/Division/Index.cshtml" Line="21" Column="53" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SportsLeagueOrganizer PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -1,0 +1,27 @@
+﻿@model SportsLeagueOrganizer.Models.Team
+
+<h1>Create a new Division for @ViewBag.thisDivision.DivisionName</h1>
+
+@using (Html.BeginForm())
+{
+
+
+
+    <label>Team Name</label>
+    @Html.EditorFor(model => model.TeamName)
+
+    <br>
+
+    <label>Captain</label>
+    @Html.EditorFor(model => model.Captain)
+        <br>
+     <label>Players</label>
+    @Html.EditorFor(model => model.Players)
+
+    @Html.HiddenFor(model => model.DivisionId, new {@value = ViewBag.thisDivision.DivisionId})
+
+
+    <input type ="submit" value="Create" class="btn btn-success"/>
+}
+
+@Html.ActionLink("Back to List", "Index", "Division")

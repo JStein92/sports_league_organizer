@@ -1,0 +1,16 @@
+﻿@model SportsLeagueOrganizer.Models.Division
+
+<h1>Create a new Division</h1>
+
+@using (Html.BeginForm())
+{
+    <label>Division Name</label>
+    @Html.EditorFor(model => model.DivisionName)
+
+    <label>Skill level</label>
+    @Html.EditorFor(model => model.SkillLevel)
+
+    <input type ="submit" value="Create" class="btn btn-success"/>
+}
+
+@Html.ActionLink("Back to List", "Index")

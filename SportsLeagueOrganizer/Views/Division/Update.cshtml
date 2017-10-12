@@ -1,0 +1,19 @@
+﻿@model SportsLeagueOrganizer.Models.Division
+
+<h4>Edit @Model.DivisionName Division</h4>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(model => model.DivisionId)
+
+    <label>Name</label>
+    @Html.EditorFor(model => model.DivisionName, new {@class = "form-control"})
+
+    <br>
+    <label>Skill Level</label>
+    @Html.EditorFor(model => model.SkillLevel, new {@class = "form-control"})
+
+    <input type="Submit" value="Save" class ="btn btn-info"/>
+}
+
+@Html.ActionLink("Back", "Index")

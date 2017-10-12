@@ -1,0 +1,10 @@
+﻿@model SportsLeagueOrganizer.Models.Team
+
+<h2>Are you sure you want to delete @Model.TeamName?</h2>
+
+@using (Html.BeginForm())
+{
+    <input type ="submit" value="Delete" class = "btn btn-danger">
+}
+
+@Html.ActionLink("Back","Details","Division",new {DivisionId = @Model.DivisionId})
